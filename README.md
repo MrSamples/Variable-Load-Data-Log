@@ -1,6 +1,6 @@
 Variable Load Data Log
 ==========================
-![Screenshot of Variable Load Data Storage Program (https://imgur.com/a/6ZFEl7g)](https://i.imgur.com/BlnjLOb.png))
+![Screenshot of Variable Load Data Storage Program (https://imgur.com/a/6ZFEl7g)](https://i.imgur.com/BlnjLOb.png)
 
 To be used in conjunction with [*Variable Load Kit*](https://github.com/MrSamples/Variable-Load). C# program to pull stored data off Variable Load Kit's flash memory neatly into a csv file to be analyzed.
 
