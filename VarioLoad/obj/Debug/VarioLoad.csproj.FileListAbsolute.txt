@@ -1,0 +1,9 @@
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\bin\Debug\VarioLoad.exe.config
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\bin\Debug\VarioLoad.exe
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\bin\Debug\VarioLoad.pdb
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Debug\VarioLoad.csprojResolveAssemblyReference.cache
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Debug\VarioLoad.Form1.resources
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Debug\VarioLoad.Properties.Resources.resources
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Debug\VarioLoad.csproj.GenerateResource.Cache
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Debug\VarioLoad.exe
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Debug\VarioLoad.pdb

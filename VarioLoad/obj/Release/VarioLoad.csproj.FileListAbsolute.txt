@@ -1,0 +1,20 @@
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\bin\Release\VarioLoad.exe.config
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\bin\Release\VarioLoad.exe
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\bin\Release\VarioLoad.pdb
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Release\VarioLoad.csprojResolveAssemblyReference.cache
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Release\VarioLoad.Form1.resources
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Release\VarioLoad.Properties.Resources.resources
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Release\VarioLoad.csproj.GenerateResource.Cache
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Release\VarioLoad.exe
+c:\users\milton\documents\visual studio 2015\Projects\VarioLoad\VarioLoad\obj\Release\VarioLoad.pdb
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\bin\Release\VarioLoad.exe.config
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\bin\Release\VarioLoad.exe
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\bin\Release\VarioLoad.pdb
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\obj\Release\VarioLoad.csproj.AssemblyReference.cache
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\obj\Release\VarioLoad.csproj.SuggestedBindingRedirects.cache
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\obj\Release\VarioLoad.Form1.resources
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\obj\Release\VarioLoad.Properties.Resources.resources
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\obj\Release\VarioLoad.csproj.GenerateResource.cache
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\obj\Release\VarioLoad.csproj.CoreCompileInputs.cache
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\obj\Release\VarioLoad.exe
+C:\Users\RSAE\source\repos\VarioLoad\VarioLoad\obj\Release\VarioLoad.pdb
