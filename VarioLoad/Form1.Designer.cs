@@ -30,37 +30,47 @@
         {
             this.components = new System.ComponentModel.Container();
             this.setupBox = new System.Windows.Forms.GroupBox();
+            this.working = new System.Windows.Forms.Label();
             this.start = new System.Windows.Forms.Button();
             this.browse = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.filePathBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comPortBox = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.working = new System.Windows.Forms.Label();
+            this.clear = new System.Windows.Forms.Button();
+            this.comPortComboBox = new System.Windows.Forms.ComboBox();
             this.setupBox.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // setupBox
             // 
+            this.setupBox.Controls.Add(this.comPortComboBox);
+            this.setupBox.Controls.Add(this.clear);
             this.setupBox.Controls.Add(this.working);
             this.setupBox.Controls.Add(this.start);
             this.setupBox.Controls.Add(this.browse);
             this.setupBox.Controls.Add(this.label2);
             this.setupBox.Controls.Add(this.filePathBox);
             this.setupBox.Controls.Add(this.label1);
-            this.setupBox.Controls.Add(this.comPortBox);
             this.setupBox.Location = new System.Drawing.Point(12, 27);
             this.setupBox.Name = "setupBox";
             this.setupBox.Size = new System.Drawing.Size(349, 105);
             this.setupBox.TabIndex = 0;
             this.setupBox.TabStop = false;
             this.setupBox.Text = "Setup";
+            // 
+            // working
+            // 
+            this.working.AutoSize = true;
+            this.working.Location = new System.Drawing.Point(112, 74);
+            this.working.Name = "working";
+            this.working.Size = new System.Drawing.Size(0, 13);
+            this.working.TabIndex = 8;
             // 
             // start
             // 
@@ -111,13 +121,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "COM Port";
             // 
-            // comPortBox
-            // 
-            this.comPortBox.Location = new System.Drawing.Point(6, 71);
-            this.comPortBox.Name = "comPortBox";
-            this.comPortBox.Size = new System.Drawing.Size(100, 20);
-            this.comPortBox.TabIndex = 4;
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.CheckFileExists = false;
@@ -159,15 +162,24 @@
             this.helpToolStripMenuItem.Text = "Help";
             this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
-            // working
+            // clear
             // 
-            this.working.AutoSize = true;
-            this.working.Location = new System.Drawing.Point(112, 74);
-            this.working.Name = "working";
-            this.working.Size = new System.Drawing.Size(56, 13);
-            this.working.TabIndex = 8;
-            this.working.Text = "Working...";
-            this.working.Visible = false;
+            this.clear.Location = new System.Drawing.Point(193, 71);
+            this.clear.Name = "clear";
+            this.clear.Size = new System.Drawing.Size(75, 23);
+            this.clear.TabIndex = 9;
+            this.clear.Text = "Clear";
+            this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
+            // 
+            // comPortComboBox
+            // 
+            this.comPortComboBox.FormattingEnabled = true;
+            this.comPortComboBox.Location = new System.Drawing.Point(6, 71);
+            this.comPortComboBox.Name = "comPortComboBox";
+            this.comPortComboBox.Size = new System.Drawing.Size(100, 21);
+            this.comPortComboBox.TabIndex = 10;
+            this.comPortComboBox.Click += new System.EventHandler(this.comPortComboBox_Click);
             // 
             // Form1
             // 
@@ -178,7 +190,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Variable Load Data Storage v1.0";
+            this.Text = "Variable Load Data Storage v1.1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.setupBox.ResumeLayout(false);
             this.setupBox.PerformLayout();
@@ -196,7 +208,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox filePathBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox comPortBox;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -204,6 +215,8 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.Button start;
         private System.Windows.Forms.Label working;
+        private System.Windows.Forms.Button clear;
+        private System.Windows.Forms.ComboBox comPortComboBox;
     }
 }
 
